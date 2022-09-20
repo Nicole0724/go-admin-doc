@@ -328,3 +328,19 @@ path 是一个匹配 URL 的准则（有点正则表达式的意思），当 go-
 如果你在阅读本教程的过程中有任何疑问，可以前往[提交建议](https://github.com/go-admin-team/go-admin/issues/new)。
 
 </Alert>
+
+## 配置启动项目，用goland IDE进行启动或者调试
+1. 打开配置
+![](https://inotgo.com/imagesLocal/202108/07/20210807180045049K_0.png.jpg)
+
+2. 新建配置
+![](https://inotgo.com/imagesLocal/202108/07/20210807180045049K_7.png.jpg)
+
+3. 填写配置参数
+```
+server -c=config/settings.dev.yml
+```
+![](https://inotgo.com/imagesLocal/202108/07/20210807180045049K_8.png.jpg)
+
+
+4. 运行或调试
